@@ -10,3 +10,13 @@ console.log(isActive, typeof(isActive));
 
 
 
+// Task 2: Compound Data Types
+
+let products = ["Nike Air Max", "Iphone 13", "Coca-Cola Zero"];
+const productDetails = {
+    name: products,
+    inStock: 13, 
+    price: 250.00,
+}
+
+console.log(products, productDetails);
