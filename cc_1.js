@@ -20,3 +20,25 @@ const productDetails = {
 }
 
 console.log(products, productDetails);
+
+
+
+//Task 3: Assignment Operators
+
+let accountBalance = 100;
+console.log("Initial Balance:", accountBalance);
+
+accountBalance += 500; 
+console.log("After Deposit:", accountBalance);
+
+accountBalance -= 200;
+console.log("After Withdrawal:", accountBalance);
+
+accountBalance *= 1.05;
+console.log("After Interest", accountBalance);
+
+accountBalance /= 2; 
+console.log("After splitting Balance", accountBalance);
+
+accountBalance %= 10;
+console.log("After Modulus Operation", accountBalance);
