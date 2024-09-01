@@ -71,6 +71,6 @@ let accessGeneralArea = hasKeyCard || hasPermission;
 console.log('Can access general area:', accessGeneralArea);
 
 let noKeyCard = !hasKeyCard;
-console.log("Does not have key card:", noKeyCard);
+console.log("Has key card:", noKeyCard);
 
 
