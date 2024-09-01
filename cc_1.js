@@ -42,3 +42,20 @@ console.log("After splitting Balance", accountBalance);
 
 accountBalance %= 10;
 console.log("After Modulus Operation", accountBalance);
+
+
+
+// Task 4: Comparison Operators
+
+let employeeScore1 = 110;
+let employeeScore2 = 125;
+
+console.log("employeeScore1 > employeeScore2", employeeScore1 > employeeScore2);
+console.log("employeeScore1 < employeeScore2", employeeScore1 < employeeScore2);
+console.log("employeeScore1 >= employeeScore2", employeeScore1 >= employeeScore2);
+console.log("employeeScore1 <= employeeScore2", employeeScore1 <= employeeScore2);
+console.log("employeeScore1 === employeeScore2", employeeScore1 === employeeScore2);
+console.log("employeeScore1 !== employeeScore2", employeeScore1 !== employeeScore2);
+
+
+
