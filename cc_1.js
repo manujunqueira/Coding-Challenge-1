@@ -59,3 +59,18 @@ console.log("employeeScore1 !== employeeScore2", employeeScore1 !== employeeScor
 
 
 
+// Task 5: Logical Operators
+
+let hasKeyCard = true;
+let hasPermission = false; 
+
+let accessRestrictedArea = hasKeyCard && hasPermission;
+console.log("Can access restricted area:", accessRestrictedArea);
+
+let accessGeneralArea = hasKeyCard || hasPermission;
+console.log('Can access general area:', accessGeneralArea);
+
+let noKeyCard = !hasKeyCard;
+console.log("Does not have key card:", noKeyCard);
+
+
